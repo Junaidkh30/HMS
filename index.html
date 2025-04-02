@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:990px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="images/Logo.png" alt="HMS">
+        </div>
+        <ul>
+           <li class="items"><a href="#Home" >Home</a></li>
+           <li class="items"><a href="#services-container">Services</a></li>
+           <li class="items"><a href="#About-container">About</a></li>
+           <li class="items"><a href="#Contact-container">Contact us</a></li>
+           <!-- <li class="search"> <a href="#"><input type="text" placeholder="Search here"></a></li> -->
+           
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Search here">
+        </div>
+
+    </nav>
+
+    <section>
+        <div id="Home">
+            <h2 class="h-primary">Welcome to our HMS</h2>
+            <p id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste tempore reiciendis veritatis saepe quia beatae atque asperiores </p>
+            <p id="book">Book an appointment</p>
+            <button>Now &rarr;</button>
+        </div>
+    </section>
+    <section id="services-container">
+        <h2 >Our Services</h2>
+        <div id="services">
+            <div class="box">
+                <img src="images/Service1.png" alt="no">
+                <h3>Booking an appointment</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias.</p> -->
+            </div>
+            <div class="box">
+                <img src="images/Service2.png" alt="no">
+                <h3>Instant Video Call</h3>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis?</p> -->
+            </div>
+            <div class="box">
+                <img src="images/Service3.png" alt="no">
+                <h3>Patient Portal</h3>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam.</p> -->
+            </div>
+        </div>
+    </section>
+        <section id="About-container">
+            <h2>About Us</h2>
+            <br>
+            <p>Welcome to Hospital Management System. Our state-of-the-art platform simplifies hospital operations by integrating real-time patient tracking, Doctor-patient relationship and efficient appointment scheduling. We focus on enhancing communication and streamlining workflows to support exceptional care and administrative efficiency. Our technology is dedicated to improving patient outcomes and ensuring a seamless experience for both staff and patients.</p>
+    </section>
+    <section id="Contact-container">
+        <br><br>
+        <h2>Contact Us</h2>
+        <br>
+        <div class="form-container">
+            <form action="index.php">
+                <fieldset>
+                <legend>Personal Info</legend>
+                    <label for="Name">Name:</label><br>
+                    <input type="text" id="Name" placeholder="Enter your Name here" required><br>
+                    <label for="Mobile">Mobile No. :</label><br>
+                    <input type="tel" name="" id="Mobile" placeholder=""><br>
+                    <label for="Email">E-mail:</label><br>  
+                    <input type="email" name="E-mail" id="Email" placeholder="" required ><br><br>
+                    <textarea name="" id="" cols="37" rows="10" placeholder="Type your text here......"></textarea><br>
+                    <input type="submit" value="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <footer>
+    Copyright &copy; HMS 2024  All right reserved
+    </footer>
+</body>
+</html>
